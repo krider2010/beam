@@ -77,7 +77,7 @@ One-click deploy:
 
 The first build will fail because the environment variables need to be setup. These can be configured in [the Vercel UI](https://vercel.com/docs/concepts/projects/environment-variables). Variables you might want to set can be found in the [.env.example](.env.example) file.
 
-⚠️ Remember to update your callback URLs after deploying.
+⚠️ Remember to update your callback URLs in the GitHub OAuth app after deploying.
 
 ## Deploying to Netlify
 
