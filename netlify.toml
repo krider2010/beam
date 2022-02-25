@@ -1,9 +1,0 @@
-[template.environment]
-  DATABASE_URL = "Your database connection string"
-  AUTH_PROVIDER = "Your auth provider"
-
-  GITHUB_ID = "The GitHub Client ID for authentication"
-  GITHUB_SECRET = "The App Secret"
-  GITHUB_ALLOWED_ORG = "The GitHub organisation that Beam members must belong to"
-
-  NEXTAUTH_SECRET = "A random secret - try https://generate-secret.vercel.app/32 to generate one"

@@ -75,12 +75,16 @@ One-click deploy:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplanetscale%2Fbeam)
 
+The first build will fail because the environment variables need to be setup. These can be configured in [the Vercel UI](https://vercel.com/docs/concepts/projects/environment-variables). Variables you might want to set can be found in the [.env.example](.env.example) file.
+
 ⚠️ Remember to update your callback URLs after deploying.
 
 ## Deploying to Netlify
 
 One-click deploy:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/planetscale/beam#AUTH_PROVIDER=github)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/planetscale/beam)
+
+The first build will fail because the environment variables need to be setup. These can be configured in [several ways](https://docs.netlify.com/configure-builds/environment-variables/) but the easiest to get this up and running will be to visit the _Site settings > Build & deploy > Environment > Environment variables_ in the Netlify UI. Variables you might want to set can be found in the [.env.example](.env.example) file.
 
 ⚠️ Remember to update your callback URLs in the GitHub OAuth app after deploying.
